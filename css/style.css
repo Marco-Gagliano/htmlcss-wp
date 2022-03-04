@@ -16,7 +16,7 @@
 
 body {
   background-color: white;
-  margin: 0% 15%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .container{
@@ -26,8 +26,15 @@ body {
 }
 
 .text {
-  color: grey;
+  color: rgb(10, 0, 0);
   font-weight: 900;
+  font-size: 10px;
+}
+
+
+.overlay{
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 100%;
 }
 
 
@@ -36,30 +43,43 @@ body {
 
 .article-top-1 {
   height: 200px;
-  background-color: #e579e6;
+  background-color: #dadada;
   margin-bottom: 20px;
   padding: 10px;
 }
 
 .article-top-2 {
-  height: 300px;
-  padding: 10px;
   background-image: url(../img/banner.jpg);
   background-size: cover;
   background-position: center;
-  background-color: rgba(0, 0, 0, 0,8);
+  height: 490px;
   overflow: hidden;
   border-radius: 10px;
   color: white;
-
 }
 
- nav ul li a {
-  list-style: none;
-  display: inline-block;
-  padding-left: 20px;
-  text-transform: uppercase;
+.overlay {
+  padding-left: 70px;
+  padding-top: 190px;
+  padding-right: 590px;
+}
 
+
+/* HEADER - MENU */
+
+nav ul {
+  list-style: none;
+}
+ nav ul li a {
+  display: inline-block;
+  padding-left: 14px;
+  text-transform: uppercase;
+  color: grey;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: yellow;
 }
 
 
@@ -72,8 +92,8 @@ main {
 }
 
 h1 {
-  font-weight: 900;
-  font-style: ;
+  font-weight: 800;
+  text-transform: capitalize;
 }
 
 
@@ -90,8 +110,6 @@ h1 {
 }
 
 .middle-side {
-  height: 330px;
-  width: 15%;
   float: left;
   padding: 10px;
   background-color: #abcfe7;
@@ -113,7 +131,6 @@ h1 {
   padding: 10px;
   margin: 10px 0px;
   text-align: center;
-  background-color: #ffffff;
 }
 
 .article-bottom::after {
