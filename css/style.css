@@ -19,8 +19,15 @@ body {
   margin: 0% 15%;
 }
 
+.container{
+  width: 80%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
 .text {
   color: grey;
+  font-weight: 900;
 }
 
 
@@ -51,6 +58,7 @@ body {
   list-style: none;
   display: inline-block;
   padding-left: 20px;
+  text-transform: uppercase;
 
 }
 
@@ -63,13 +71,18 @@ main {
   margin-top: 20px;
 }
 
+h1 {
+  font-weight: 900;
+  font-style: ;
+}
+
 
 .middle-top {
   height: 100px;
   width: 100%;
   float: left;
-  padding: 10px;
-  background-color: #abcfe7;
+  padding-top: 10px;
+  background-color: #ffffff;
 }
 
 .page-middle {
@@ -97,8 +110,12 @@ main {
 /* FOOTER */
 
 .article-bottom {
-  height: 150px;
   padding: 10px;
   margin: 10px 0px;
-  background-color: #8801FE;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.article-bottom::after {
+  content: '\01F9E1';
 }
