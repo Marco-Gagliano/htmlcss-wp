@@ -84,7 +84,7 @@ nav ul li a:hover {
 
 .overlay > div {
   padding-left: 70px;
-  padding-top: 30px;
+  padding-top: 300px;
   font-size: 26px;
 }
 
@@ -105,7 +105,7 @@ main {
 }
 
 h1 {
-  font-size: 22px;
+  font-size: 37px;
   font-weight: bold;
   text-transform: capitalize;
 }
@@ -116,6 +116,7 @@ h1 {
 h3 {
   color: black;
 }
+
 .middle-top {
   margin: 30px 0px;
   width: 100%;
@@ -123,23 +124,23 @@ h3 {
   background-color: #ffffff;
 }
 
-.middle-text {
-  padding-top: 330px;
-  padding-right: 750px;
+.main-article {
+  float: left;
+  display: inline-block
 }
 
-
-.middle-1, .middle-2, .middle-3 {
-  float: left;
-  overflow: hidden;
+.middle-text-1 {
+  text-align: justify;
+  margin-top: 10px;
+  margin-right: 20px;
 }
 
 .middle-1 {
   background-image: url(../img/img-1.jpg);
   background-size: cover;
   background-position: center;
-  height: 300px;
-  width: 300px;
+  height: 200px;
+  width: 20%;
   overflow: hidden;
   border-radius: 10px;
   color: white;
@@ -149,8 +150,8 @@ h3 {
   background-image: url(../img/banner-2.jpg);
   background-size: cover;
   background-position: center;
-  height: 300px;
-  width: 540px;
+  height: 200px;
+  width: 50%;
   margin: 0px 15px;
   overflow: hidden;
   border-radius: 10px;
@@ -161,8 +162,8 @@ h3 {
   background-image: url(../img/img-3.jpg);
   background-size: cover;
   background-position: center;
-  height: 300px;
-  width: 300px;
+  height: 200px;
+  width: 20%;
   overflow: hidden;
   border-radius: 10px;
   color: white;
@@ -180,3 +181,9 @@ h3 {
 .article-bottom::after {
   content: '\01F9E1';
 }
+
+
+
+
+
+/* momomomomo */
